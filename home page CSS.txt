@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Consistent font across the body */
+    background-color: #e9ecef; /* Light background for the entire page */
+}
+
+.home-container {
+    text-align: left; /* Align text to the left for better readability */
+    padding: 40px; /* Increased padding for a more spacious layout */
+    background-color: #ffffff; /* White background for the content area */
+    min-height: 100vh;
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 20px auto; /* Center the container with margin */
+    max-width: 800px; /* Limit the width for better readability */
+}
+p1{
+    align-items: center;
+}
+
+/* Headings */
+h1 {
+    color: #333;
+    font-size: 2.5em; /* Increased font size for the main heading */
+    margin-bottom: 20px; /* Space below the main heading */
+    text-align: center; /* Center align the main heading */
+}
+
+h2 {
+    color: #007bff; /* Use a blue color for section headings */
+    font-size: 1.8em; /* Size for section headings */
+    margin-top: 30px; /* Space above section headings */
+    margin-bottom: 10px; /* Space below section headings */
+    border-bottom: 2px solid #007bff; /* Underline for section headings */
+    padding-bottom: 5px; /* Space below the underline */
+    align-items: center;
+}
+
+/* List Styles */
+ul {
+    margin-left: 20px; /* Indent the list for better structure */
+    line-height: 1.6; /* Increase line height for better readability */
+    list-style-type: disc; /* Use disc bullets for lists */
+}
+
+li {
+    margin-bottom: 15px; /* Space between list items */
+    padding: 10px; /* Padding for list items */
+    border-left: 4px solid #007bff; /* Left border for list items */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+li:hover {
+    background-color: #f1f1f1; /* Light background on hover */
+}
+
+/* Emphasized Text */
+strong {
+    color: #333; /* Color for emphasized text */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 40px; /* Increased space above footer */
+    font-size: 0.9em; /* Slightly larger footer text */
+    color: #666;
+    text-align: center; /* Center align footer text */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .home-container {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Smaller font size for the main heading */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller font size for section headings */
+    }
+}
